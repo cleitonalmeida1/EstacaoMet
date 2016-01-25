@@ -49,3 +49,20 @@ Finished building: ../Main.cpp
 Building target: EstMet.axf
 Invoking: MCU C++ Linker
 arm-none-eabi-c++ -nostdlib -L"C:\EstacaoMet\EstMet" -L"C:\EstacaoMet\EstMet\ConfigFile" -L"C:\EstacaoMet\EstMet\GPS" -L"C:\EstacaoMet\EstMet\nRF24L01P" -L"C:\EstacaoMet\EstMet\PowerControl" -L"C:\EstacaoMet\EstMet\SHTx" -L"C:\EstacaoMet\EstMet\Logger" -L"C:\EstacaoMet\EstMet\mbed" -L"C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768" -L"C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768\TARGET_NXP" -L"C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768\TARGET_NXP\TARGET_LPC176X" -L"C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768\TARGET_NXP\TARGET_LPC176X\TARGET_MBED_LPC1768" -L"C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR" -Xlinker -Map="EstMet.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\LPC1768.ld" -o "EstMet.axf"  ./nRF24L01P/nRF24L01P.o  ./SHTx/i2c.o ./SHTx/sht15.o  ./PowerControl/EthernetPowerControl.o  ./GPS/GPS.o  ./ConfigFile/ConfigFile.o  ./DadosLeitura.o ./EstacaoMet.o ./FrequencyCounter.o ./Main.o ./PulseIn.o ./Watchdog.o ./Wetting.o  C:/EstacaoMet/EstMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/board.o C:/EstacaoMet/EstMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/cmsis_nvic.o C:/EstacaoMet/EstMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o C:/EstacaoMet/EstMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/startup_LPC17xx.o C:/EstacaoMet/EstMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/system_LPC17xx.o -lmbed
+Finished building target: EstMet.axf
+ 
+/usr/bin/make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "EstMet.axf"; arm-none-eabi-objcopy -O binary "EstMet.axf" "EstMet.bin" ; # checksum -p LPC1768 -d "EstMet.bin";
+   text	   data	    bss	    dec	    hex	filename
+  29880	   2212	    620	  32712	   7fc8	EstMet.axf
+ 
+10:40:30 **** Incremental Build of configuration Release for project EstMet ****
+make -r all 
+make: Nothing to be done for `all'.
+10:41:27 **** Incremental Build of configuration Debug for project EstMet ****
+make -r all 
+make: Nothing to be done for `all'.
+10:42:14 **** Incremental Build of configuration Release for project EstMet ****
+make -r all 
+make: Nothing to be done for `all'.

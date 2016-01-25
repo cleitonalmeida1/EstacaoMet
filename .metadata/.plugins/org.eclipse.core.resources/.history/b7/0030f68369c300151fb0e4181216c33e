@@ -6,7 +6,12 @@ DigitalOut myled(LED1);
 
 int main() {
 
+	int o;
 	EstacaoMet estacao;
+
+    estacao.configurar();
+
+    o = 1;
 
 
 }
