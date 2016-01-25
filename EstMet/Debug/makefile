@@ -49,7 +49,7 @@ all: EstMet.axf
 EstMet.axf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU C++ Linker'
-	arm-none-eabi-c++ -nostdlib -L"C:\Estacao\EstMet" -L"C:\Estacao\EstMet\ConfigFile" -L"C:\Estacao\EstMet\GPS" -L"C:\Estacao\EstMet\nRF24L01P" -L"C:\Estacao\EstMet\PowerControl" -L"C:\Estacao\EstMet\SHTx" -L"C:\Estacao\EstMet\Logger" -L"C:\Estacao\EstMet\mbed" -L"C:\Estacao\EstMet\mbed\TARGET_LPC1768" -L"C:\Estacao\EstMet\mbed\TARGET_LPC1768\TARGET_NXP" -L"C:\Estacao\EstMet\mbed\TARGET_LPC1768\TARGET_NXP\TARGET_LPC176X" -L"C:\Estacao\EstMet\mbed\TARGET_LPC1768\TARGET_NXP\TARGET_LPC176X\TARGET_MBED_LPC1768" -L"C:\Estacao\EstMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR" -Xlinker -Map="EstMet.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "C:\Estacao\EstMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\LPC1768.ld" -o "EstMet.axf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-c++ -nostdlib -L"C:\EstacaoMet\EstMet" -L"C:\EstacaoMet\EstMet\ConfigFile" -L"C:\EstacaoMet\EstMet\GPS" -L"C:\EstacaoMet\EstMet\nRF24L01P" -L"C:\EstacaoMet\EstMet\PowerControl" -L"C:\EstacaoMet\EstMet\SHTx" -L"C:\EstacaoMet\EstMet\Logger" -L"C:\EstacaoMet\EstMet\mbed" -L"C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768" -L"C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768\TARGET_NXP" -L"C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768\TARGET_NXP\TARGET_LPC176X" -L"C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768\TARGET_NXP\TARGET_LPC176X\TARGET_MBED_LPC1768" -L"C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR" -Xlinker -Map="EstMet.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\LPC1768.ld" -o "EstMet.axf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build

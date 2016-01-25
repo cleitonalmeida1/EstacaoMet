@@ -1,0 +1,51 @@
+10:38:12 **** Incremental Build of configuration Release for project EstMet ****
+make -r all 
+Building file: ../Main.cpp
+Invoking: MCU C++ Compiler
+arm-none-eabi-c++ -D__NEWLIB__ -D__CODE_RED -DCPP_USE_HEAP -DMBED_BUILD_TIMESTAMP=1445025855.48 -D__CORTEX_M3 -DTOOLCHAIN_GCC -DARM_MATH_CM3 -DTARGET_CORTEX_M -DTARGET_LPC176X -DTARGET_NXP -DTARGET_MBED_LPC1768 -DTARGET_LPC1768 -DTARGET_M3 -DTOOLCHAIN_GCC_CR -D__MBED__=1 -I"C:\EstacaoMet\EstMet" -I"C:\EstacaoMet\EstMet\ConfigFile" -I"C:\EstacaoMet\EstMet\GPS" -I"C:\EstacaoMet\EstMet\nRF24L01P" -I"C:\EstacaoMet\EstMet\PowerControl" -I"C:\EstacaoMet\EstMet\SHTx" -I"C:\EstacaoMet\EstMet\Logger" -I"C:\EstacaoMet\EstMet\mbed" -I"C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768" -I"C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768\TARGET_NXP" -I"C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768\TARGET_NXP\TARGET_LPC176X" -I"C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768\TARGET_NXP\TARGET_LPC176X\TARGET_MBED_LPC1768" -I"C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR" -Os -Os -g -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -mcpu=cortex-m3 -mthumb -D__NEWLIB__ -MMD -MP -MF"Main.d" -MT"Main.o" -MT"Main.d" -o "Main.o" "../Main.cpp"
+../Main.cpp: In function 'int main()':
+../Main.cpp:9:6: warning: variable 'o' set but not used [-Wunused-but-set-variable]
+  int o;
+      ^
+Finished building: ../Main.cpp
+ 
+Building file: ../PulseIn.cpp
+Invoking: MCU C++ Compiler
+arm-none-eabi-c++ -D__NEWLIB__ -D__CODE_RED -DCPP_USE_HEAP -DMBED_BUILD_TIMESTAMP=1445025855.48 -D__CORTEX_M3 -DTOOLCHAIN_GCC -DARM_MATH_CM3 -DTARGET_CORTEX_M -DTARGET_LPC176X -DTARGET_NXP -DTARGET_MBED_LPC1768 -DTARGET_LPC1768 -DTARGET_M3 -DTOOLCHAIN_GCC_CR -D__MBED__=1 -I"C:\EstacaoMet\EstMet" -I"C:\EstacaoMet\EstMet\ConfigFile" -I"C:\EstacaoMet\EstMet\GPS" -I"C:\EstacaoMet\EstMet\nRF24L01P" -I"C:\EstacaoMet\EstMet\PowerControl" -I"C:\EstacaoMet\EstMet\SHTx" -I"C:\EstacaoMet\EstMet\Logger" -I"C:\EstacaoMet\EstMet\mbed" -I"C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768" -I"C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768\TARGET_NXP" -I"C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768\TARGET_NXP\TARGET_LPC176X" -I"C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768\TARGET_NXP\TARGET_LPC176X\TARGET_MBED_LPC1768" -I"C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR" -Os -Os -g -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -mcpu=cortex-m3 -mthumb -D__NEWLIB__ -MMD -MP -MF"PulseIn.d" -MT"PulseIn.o" -MT"PulseIn.d" -o "PulseIn.o" "../PulseIn.cpp"
+Finished building: ../PulseIn.cpp
+ 
+Building file: ../Watchdog.cpp
+Invoking: MCU C++ Compiler
+arm-none-eabi-c++ -D__NEWLIB__ -D__CODE_RED -DCPP_USE_HEAP -DMBED_BUILD_TIMESTAMP=1445025855.48 -D__CORTEX_M3 -DTOOLCHAIN_GCC -DARM_MATH_CM3 -DTARGET_CORTEX_M -DTARGET_LPC176X -DTARGET_NXP -DTARGET_MBED_LPC1768 -DTARGET_LPC1768 -DTARGET_M3 -DTOOLCHAIN_GCC_CR -D__MBED__=1 -I"C:\EstacaoMet\EstMet" -I"C:\EstacaoMet\EstMet\ConfigFile" -I"C:\EstacaoMet\EstMet\GPS" -I"C:\EstacaoMet\EstMet\nRF24L01P" -I"C:\EstacaoMet\EstMet\PowerControl" -I"C:\EstacaoMet\EstMet\SHTx" -I"C:\EstacaoMet\EstMet\Logger" -I"C:\EstacaoMet\EstMet\mbed" -I"C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768" -I"C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768\TARGET_NXP" -I"C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768\TARGET_NXP\TARGET_LPC176X" -I"C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768\TARGET_NXP\TARGET_LPC176X\TARGET_MBED_LPC1768" -I"C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR" -Os -Os -g -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -mcpu=cortex-m3 -mthumb -D__NEWLIB__ -MMD -MP -MF"Watchdog.d" -MT"Watchdog.o" -MT"Watchdog.d" -o "Watchdog.o" "../Watchdog.cpp"
+Finished building: ../Watchdog.cpp
+ 
+Building file: ../Wetting.cpp
+Invoking: MCU C++ Compiler
+arm-none-eabi-c++ -D__NEWLIB__ -D__CODE_RED -DCPP_USE_HEAP -DMBED_BUILD_TIMESTAMP=1445025855.48 -D__CORTEX_M3 -DTOOLCHAIN_GCC -DARM_MATH_CM3 -DTARGET_CORTEX_M -DTARGET_LPC176X -DTARGET_NXP -DTARGET_MBED_LPC1768 -DTARGET_LPC1768 -DTARGET_M3 -DTOOLCHAIN_GCC_CR -D__MBED__=1 -I"C:\EstacaoMet\EstMet" -I"C:\EstacaoMet\EstMet\ConfigFile" -I"C:\EstacaoMet\EstMet\GPS" -I"C:\EstacaoMet\EstMet\nRF24L01P" -I"C:\EstacaoMet\EstMet\PowerControl" -I"C:\EstacaoMet\EstMet\SHTx" -I"C:\EstacaoMet\EstMet\Logger" -I"C:\EstacaoMet\EstMet\mbed" -I"C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768" -I"C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768\TARGET_NXP" -I"C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768\TARGET_NXP\TARGET_LPC176X" -I"C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768\TARGET_NXP\TARGET_LPC176X\TARGET_MBED_LPC1768" -I"C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR" -Os -Os -g -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -mcpu=cortex-m3 -mthumb -D__NEWLIB__ -MMD -MP -MF"Wetting.d" -MT"Wetting.o" -MT"Wetting.d" -o "Wetting.o" "../Wetting.cpp"
+Finished building: ../Wetting.cpp
+ 
+Building target: EstMet.axf
+Invoking: MCU C++ Linker
+arm-none-eabi-c++ -nostdlib -L"C:\EstacaoMet\EstMet" -L"C:\EstacaoMet\EstMet\ConfigFile" -L"C:\EstacaoMet\EstMet\GPS" -L"C:\EstacaoMet\EstMet\nRF24L01P" -L"C:\EstacaoMet\EstMet\PowerControl" -L"C:\EstacaoMet\EstMet\SHTx" -L"C:\EstacaoMet\EstMet\Logger" -L"C:\EstacaoMet\EstMet\mbed" -L"C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768" -L"C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768\TARGET_NXP" -L"C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768\TARGET_NXP\TARGET_LPC176X" -L"C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768\TARGET_NXP\TARGET_LPC176X\TARGET_MBED_LPC1768" -L"C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR" -Xlinker -Map="EstMet.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\LPC1768.ld" -o "EstMet.axf"  ./nRF24L01P/nRF24L01P.o  ./SHTx/i2c.o ./SHTx/sht15.o  ./PowerControl/EthernetPowerControl.o  ./GPS/GPS.o  ./ConfigFile/ConfigFile.o  ./DadosLeitura.o ./EstacaoMet.o ./FrequencyCounter.o ./Main.o ./PulseIn.o ./Watchdog.o ./Wetting.o  C:/EstacaoMet/EstMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/board.o C:/EstacaoMet/EstMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/cmsis_nvic.o C:/EstacaoMet/EstMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o C:/EstacaoMet/EstMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/startup_LPC17xx.o C:/EstacaoMet/EstMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/system_LPC17xx.o -lmbed
+Finished building target: EstMet.axf
+ 
+/usr/bin/make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "EstMet.axf"; arm-none-eabi-objcopy -O binary "EstMet.axf" "EstMet.bin" ; #checksum -p LPC1768 -d "EstMet.bin";
+   text	   data	    bss	    dec	    hex	filename
+  29576	   2212	    620	  32408	   7e98	EstMet.axf
+ 
+10:39:06 **** Incremental Build of configuration Debug for project EstMet ****
+make -r all 
+Building file: ../Main.cpp
+Invoking: MCU C++ Compiler
+arm-none-eabi-c++ -D__NEWLIB__ -D__CODE_RED -DCPP_USE_HEAP -DMBED_BUILD_TIMESTAMP=1445025855.48 -D__CORTEX_M3 -DTOOLCHAIN_GCC -DARM_MATH_CM3 -DTARGET_CORTEX_M -DTARGET_LPC176X -DTARGET_NXP -DTARGET_MBED_LPC1768 -DTARGET_LPC1768 -DTARGET_M3 -DTOOLCHAIN_GCC_CR -D__MBED__=1 -I"C:\EstacaoMet\EstMet" -I"C:\EstacaoMet\EstMet\ConfigFile" -I"C:\EstacaoMet\EstMet\GPS" -I"C:\EstacaoMet\EstMet\nRF24L01P" -I"C:\EstacaoMet\EstMet\PowerControl" -I"C:\EstacaoMet\EstMet\SHTx" -I"C:\EstacaoMet\EstMet\Logger" -I"C:\EstacaoMet\EstMet\mbed" -I"C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768" -I"C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768\TARGET_NXP" -I"C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768\TARGET_NXP\TARGET_LPC176X" -I"C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768\TARGET_NXP\TARGET_LPC176X\TARGET_MBED_LPC1768" -I"C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -mcpu=cortex-m3 -mthumb -D__NEWLIB__ -MMD -MP -MF"Main.d" -MT"Main.o" -MT"Main.d" -o "Main.o" "../Main.cpp"
+../Main.cpp: In function 'int main()':
+../Main.cpp:9:6: warning: variable 'o' set but not used [-Wunused-but-set-variable]
+  int o;
+      ^
+Finished building: ../Main.cpp
+ 
+Building target: EstMet.axf
+Invoking: MCU C++ Linker
+arm-none-eabi-c++ -nostdlib -L"C:\EstacaoMet\EstMet" -L"C:\EstacaoMet\EstMet\ConfigFile" -L"C:\EstacaoMet\EstMet\GPS" -L"C:\EstacaoMet\EstMet\nRF24L01P" -L"C:\EstacaoMet\EstMet\PowerControl" -L"C:\EstacaoMet\EstMet\SHTx" -L"C:\EstacaoMet\EstMet\Logger" -L"C:\EstacaoMet\EstMet\mbed" -L"C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768" -L"C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768\TARGET_NXP" -L"C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768\TARGET_NXP\TARGET_LPC176X" -L"C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768\TARGET_NXP\TARGET_LPC176X\TARGET_MBED_LPC1768" -L"C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR" -Xlinker -Map="EstMet.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "C:\EstacaoMet\EstMet\mbed\TARGET_LPC1768\TOOLCHAIN_GCC_CR\LPC1768.ld" -o "EstMet.axf"  ./nRF24L01P/nRF24L01P.o  ./SHTx/i2c.o ./SHTx/sht15.o  ./PowerControl/EthernetPowerControl.o  ./GPS/GPS.o  ./ConfigFile/ConfigFile.o  ./DadosLeitura.o ./EstacaoMet.o ./FrequencyCounter.o ./Main.o ./PulseIn.o ./Watchdog.o ./Wetting.o  C:/EstacaoMet/EstMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/board.o C:/EstacaoMet/EstMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/cmsis_nvic.o C:/EstacaoMet/EstMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/retarget.o C:/EstacaoMet/EstMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/startup_LPC17xx.o C:/EstacaoMet/EstMet/mbed/TARGET_LPC1768/TOOLCHAIN_GCC_CR/system_LPC17xx.o -lmbed
